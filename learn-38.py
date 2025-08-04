@@ -1,11 +1,9 @@
-#Рядки незмінні, тобто їх не можна змінити після створення.
-
 text = 'Hello World'
-text[0] = 'h'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-
+encrypted_text = ''
 for char in text.lower():
     index = alphabet.find(char)
-    print(char, index)
     new_index = index + shift
+    encrypted_text = encrypted_text + alphabet[new_index]
+    print('char:', char, 'encrypted text:', encrypted_text)

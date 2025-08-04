@@ -1,7 +1,5 @@
-#Рядки незмінні, тобто їх не можна змінити після створення.
 
 text = 'Hello World'
-text[0] = 'h'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
